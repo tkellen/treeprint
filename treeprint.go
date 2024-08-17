@@ -276,12 +276,12 @@ type EdgeType string
 
 var (
 	EdgeTypeLink EdgeType = "│"
-	EdgeTypeMid  EdgeType = "├──"
-	EdgeTypeEnd  EdgeType = "└──"
+	EdgeTypeMid  EdgeType = "├─"
+	EdgeTypeEnd  EdgeType = "└─"
 )
 
 // IndentSize is the number of spaces per tree level.
-var IndentSize = 3
+var IndentSize = 1
 
 // New Generates new tree
 func New() Tree {
